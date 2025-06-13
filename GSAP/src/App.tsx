@@ -1,5 +1,14 @@
+import RotateBox from "./components/RotateBox/RotateBox";
+import FullScreenLayout from "./Layout/FullScreenLayout";
+
 function App() {
-  return <h1>GSAP</h1>;
+  return (
+    <>
+      <FullScreenLayout>
+        <RotateBox />
+      </FullScreenLayout>
+    </>
+  );
 }
 
 export default App;
