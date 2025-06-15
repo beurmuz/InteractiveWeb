@@ -1,4 +1,5 @@
 import RotateBox from "./components/RotateBox/RotateBox";
+import RotateBoxPause from "./components/RotateBoxPause/RotateBoxPause";
 import FullScreenLayout from "./Layout/FullScreenLayout";
 
 function App() {
@@ -6,6 +7,9 @@ function App() {
     <>
       <FullScreenLayout>
         <RotateBox />
+      </FullScreenLayout>
+      <FullScreenLayout>
+        <RotateBoxPause />
       </FullScreenLayout>
     </>
   );
