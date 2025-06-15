@@ -1,13 +1,13 @@
 import { useEffect, useRef } from "react";
 import styles from "./RotateBox.module.css";
 import gsap from "gsap";
-import ProjectHeader from "./ProjectHeader";
+import ProjectHeader from "../ProjectHeader";
 
 const RotateBox = () => {
   const boxRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (!boxRef) return;
+    if (!boxRef.current) return;
 
     gsap.to(boxRef.current, {
       rotation: 360,
