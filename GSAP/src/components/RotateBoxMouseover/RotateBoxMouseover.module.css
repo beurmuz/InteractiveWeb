@@ -1,0 +1,15 @@
+.box {
+  width: 250px;
+  height: 250px;
+  background-color: rgb(228, 233, 122);
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:hover {
+  background-color: rgb(233, 122, 211);
+  cursor: pointer;
+}
