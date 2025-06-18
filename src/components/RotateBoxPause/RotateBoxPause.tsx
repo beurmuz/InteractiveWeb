@@ -30,7 +30,7 @@ const RotateBoxPause = () => {
     <>
       <ProjectHeader
         name={"2. RotateBox2"}
-        description={"hover시 움직이는 Box가 멈춤"}
+        description={"클릭시 움직이는 Box가 멈춤"}
       />
       <div ref={boxRef} className={styles.box} onClick={handlePause}>
         Box
