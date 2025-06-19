@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(0, 179, 255);
+  margin-top: 600px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* 초기 상태 (opacity: 0 && 위에서 시작 y -30px */
+  opacity: 0;
+  transform: translateY(-50px);
+}
+
+.space {
+  height: 500px;
+}
