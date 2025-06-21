@@ -5,14 +5,18 @@ import RotateBoxMouseover from "./components/RotateBoxMouseover/RotateBoxMouseov
 import RotateBoxPause from "./components/RotateBoxPause/RotateBoxPause";
 import ScrollFadeBox from "./components/ScrollFadeBox/ScrollFadeBox";
 import ScrollSlideCards from "./components/ScrollSlideCards/ScrollSlideCards";
+import ScrollSlideUpCards from "./components/ScrollSlideUpCards/ScrollSlideUpCards";
 import FullScreenLayout from "./Layout/FullScreenLayout";
 
 function App() {
   return (
     <>
       <FullScreenLayout>
-        <ScrollSlideCards />
+        <ScrollSlideUpCards />
       </FullScreenLayout>
+      {/* <FullScreenLayout>
+        <ScrollSlideCards />
+      </FullScreenLayout> */}
       {/* <FullScreenLayout>
         <ScrollFadeBox />
       </FullScreenLayout>
