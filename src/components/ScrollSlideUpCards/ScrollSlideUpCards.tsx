@@ -6,6 +6,7 @@ import gsap from "gsap";
 const ScrollSlideUpCards = () => {
   const cardListRef = useRef<HTMLDivElement>(null);
   const hasAnimated = useRef(false);
+  console.log(hasAnimated);
 
   useEffect(() => {
     const handleScroll = () => {
