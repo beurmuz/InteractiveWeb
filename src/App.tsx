@@ -4,6 +4,7 @@ import RotateBox from "./components/RotateBox/RotateBox";
 import RotateBoxMouseover from "./components/RotateBoxMouseover/RotateBoxMouseover";
 import RotateBoxPause from "./components/RotateBoxPause/RotateBoxPause";
 import ScrollFadeBox from "./components/ScrollFadeBox/ScrollFadeBox";
+import ScrollRevealSections from "./components/ScrollRevealSections/ScrollRevealSections";
 import ScrollScaleCards from "./components/ScrollScaleCards/ScrollScaleCards";
 import ScrollSlideCards from "./components/ScrollSlideCards/ScrollSlideCards";
 import ScrollSlideUpCards from "./components/ScrollSlideUpCards/ScrollSlideUpCards";
@@ -13,8 +14,11 @@ function App() {
   return (
     <>
       <FullScreenLayout>
-        <ScrollScaleCards />
+        <ScrollRevealSections />
       </FullScreenLayout>
+      {/* <FullScreenLayout>
+        <ScrollScaleCards />
+      </FullScreenLayout> */}
 
       {/* <FullScreenLayout>
         <ScrollSlideUpCards />
