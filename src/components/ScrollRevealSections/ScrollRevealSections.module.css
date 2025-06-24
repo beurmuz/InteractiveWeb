@@ -2,7 +2,24 @@
   display: flex;
   flex-direction: column;
   margin: auto;
+  align-items: center;
 }
 
 .section {
+  width: 90vw;
+  height: 80vh;
+  background-color: #f2f2f2;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #333;
+
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.space {
+  height: 200px;
 }
