@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.section {
+  width: 90vw;
+  height: 80vh;
+  background-color: #e6e6e6;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.space {
+  height: 200px;
+}
