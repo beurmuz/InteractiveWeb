@@ -20,15 +20,15 @@ const ScrollRevealSectionsEach = () => {
             gsap.to(entry.target, {
               opacity: 1,
               y: 0,
-              duration: 2,
+              duration: 1,
               ease: "power2.out",
             });
-            obs.unobserve(entry.target); // ✅ 다시 안 나타나게!
+            obs.unobserve(entry.target);
           }
         });
       },
       {
-        threshold: 0.2, // ✅ 20% 보이면 실행
+        threshold: 0.3,
       }
     );
 
@@ -43,7 +43,7 @@ const ScrollRevealSectionsEach = () => {
     <>
       <ProjectHeader
         name="ScrollRevealSections"
-        description="각 Section이 스크롤로 화면에 보일 때마다 자연스럽게 나타나는 애니메이션"
+        description="긴 페이지를 스크롤할 때마다 각 섹션이 아래에서 위로 서서히 나타나는 애니메이션"
       />
       <div ref={containerRef} className={styles.container}>
         <section className={styles.section}>Section 1</section>
