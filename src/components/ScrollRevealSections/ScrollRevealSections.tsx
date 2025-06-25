@@ -18,18 +18,18 @@ const ScrollRevealSections = () => {
       if (window.scrollY > 100) {
         hasAnimated.current = true;
 
-        sections.forEach((section, index) => {
+        sections.forEach((section, idx) => {
           gsap.fromTo(
             section,
             {
               opacity: 0,
-              y: 50,
+              y: 70,
             },
             {
               opacity: 1,
               y: 0,
               duration: 1,
-              delay: index * 0.3,
+              delay: idx * 0.5,
               ease: "power2.out",
             }
           );

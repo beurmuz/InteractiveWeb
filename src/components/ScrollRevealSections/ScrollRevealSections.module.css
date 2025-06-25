@@ -2,22 +2,20 @@
   display: flex;
   flex-direction: column;
   margin: auto;
-  align-items: center;
+  gap: 100px;
 }
 
 .section {
   width: 90vw;
   height: 80vh;
-  background-color: #f2f2f2;
-  margin-bottom: 100px;
+  background-color: rgb(170, 215, 255);
+
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
-  color: #333;
 
   opacity: 0;
-  transform: translateY(50px);
+  transform: translateY(70px);
 }
 
 .space {

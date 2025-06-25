@@ -14,13 +14,13 @@ import FullScreenLayout from "./Layout/FullScreenLayout";
 function App() {
   return (
     <>
-      <FullScreenLayout>
-        <ScrollRevealSectionsEach />
-      </FullScreenLayout>
-
       {/* <FullScreenLayout>
-        <ScrollRevealSections />
+        <ScrollRevealSectionsEach />
       </FullScreenLayout> */}
+
+      <FullScreenLayout>
+        <ScrollRevealSections />
+      </FullScreenLayout>
 
       {/* <FullScreenLayout>
         <ScrollScaleCards />
