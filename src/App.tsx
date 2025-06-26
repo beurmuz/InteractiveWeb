@@ -9,14 +9,19 @@ import ScrollRevealSectionsEach from "./components/ScrollRevealSectionsEach/Scro
 import ScrollScaleCards from "./components/ScrollScaleCards/ScrollScaleCards";
 import ScrollSlideCards from "./components/ScrollSlideCards/ScrollSlideCards";
 import ScrollSlideUpCards from "./components/ScrollSlideUpCards/ScrollSlideUpCards";
+import ScrollTypewriterText from "./components/ScrollTypewriterText/ScrollTypewriterText";
 import FullScreenLayout from "./Layout/FullScreenLayout";
 
 function App() {
   return (
     <>
       <FullScreenLayout>
-        <ScrollRevealSectionsEach />
+        <ScrollTypewriterText />
       </FullScreenLayout>
+
+      {/* <FullScreenLayout>
+        <ScrollRevealSectionsEach />
+      </FullScreenLayout> */}
 
       {/* <FullScreenLayout>
         <ScrollRevealSections />

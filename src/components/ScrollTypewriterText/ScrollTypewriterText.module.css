@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  overflow-x: hidden;
+  height: 180vh;
+}
+
+.text {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+}
+
+.letter {
+  transform: translateY(10px);
+  transition: transform 0.3s;
+}
